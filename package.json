@@ -1,0 +1,27 @@
+{
+  "name": "wired-logo-generator",
+  "version": "1.0.0",
+  "description": "An app used to create logos for future projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvanRC/Wired-logo-generator.git"
+  },
+  "keywords": [
+    "Index.js"
+  ],
+  "author": "Evan carlson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EvanRC/Wired-logo-generator/issues"
+  },
+  "homepage": "https://github.com/EvanRC/Wired-logo-generator#readme",
+  "dependencies": {
+    "@svgdotjs/svg.js": "^3.2.0",
+    "inquirer": "^9.2.12",
+    "svg.js": "^2.7.1"
+  }
+}
