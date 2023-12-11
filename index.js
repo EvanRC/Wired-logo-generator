@@ -8,63 +8,28 @@ const validateColor = require("validate-color").default; // For validating color
 const questions = [
     {
         type: 'list',
-        message: 'Select a shape.',
         name: 'shape',
-        choices: [
-            'circle',
-            'triangele',
-            'square',
-        ],
-        validate: (shapeInput) => {
-            if (shapeInput) {
-                return true;
-            } else {
-                console.log('Now choose a shape for the logo!');
-                return false;
-            }
-        }
+        message: 'Select a shape for your logo:',
+        choices: ['circle', 'triangele', 'square',],
+        validate: (shapeInput) => shapeInput ? true : 'Please choose a shape for you logo!'
     },
     {
         type: 'input',
-        message: 'Please input text up to three characters',
         name: 'text',
-        validate: (textInput) => {
-            if (textInput.length <= 3) {
-                return true;
-            } else {
-                console.log('/nProvide the text for your logo with a max of 3 characters');
-                return false;
-            }
-        }
+        message: 'Please input text up to three characters for your logo:',
+        validate: textInput => textInput.length <= 3 ? true : 'Provide the text for your logo with a max of 3 characters.'
     },
     {
         type: 'input',
-        message: 'Include a text color.',
         name: 'textColor',
-        validate: (textColorInput) => {
-            if (validateColor(textColorInput)) {
-                return true;
-            } else {
-                console.log('Choose a color for text on your Logo!');
-                return false;
-            }
-        }
+        message: 'Enter a color for the text (keyword or hex):',
+        validate: textColorInput => validateColor(textColorInput) ? true : 'Please enter a valid color for the text.'
 
     },
     {
-        type: 'list',
-        message: 'Save the generated SVG.',
-        name: 'save',
-        choices: [
-            'save',
-        ],
-        validate: (saveInput) => {
-            if (saveInput) {
-                return true;
-            } else {
-                console.log('Please save your SVG Logo to a .svgfile');
-                return false;
-            }
-        }
-    }
+        type: 'input',
+        name: 'shapeColor',
+        message: 'Enter a color for the shape (keyword or hex):',
+        validate: shapeColorInput => validateColor(shapeColorInput) ? true : 'Please enter a valid color for the shape.'
+    },
 ];
