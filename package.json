@@ -23,5 +23,8 @@
     "@svgdotjs/svg.js": "^3.2.0",
     "inquirer": "^9.2.12",
     "svg.js": "^2.7.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
