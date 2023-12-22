@@ -51,9 +51,9 @@ const writeSVG = async (fileName, data) => {
         // Creating a new circle instance with the provided colors and text
             const circle = new Circle(data.shapeColor, data.textColor, data.text);
             // Adding the rendered SVG string from the Circle instance to the svgFile
-            svgFile =+ circle.render();
+            svgFile += circle.render();
             break;
-        case 'traingle': // In case of triangle
+        case 'triangle': // In case of triangle
       // Creating a new Triangle instance and doing the same as above
             const triangle = new Triangle(data.shapeColor, data.textColor, data.text);
             svgFile += triangle.render();

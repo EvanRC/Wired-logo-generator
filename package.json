@@ -21,8 +21,9 @@
   "homepage": "https://github.com/EvanRC/Wired-logo-generator#readme",
   "dependencies": {
     "@svgdotjs/svg.js": "^3.2.0",
-    "inquirer": "^9.2.12",
-    "svg.js": "^2.7.1"
+    "inquirer": "^8.2.4",
+    "svg.js": "^2.7.1",
+    "validate-color": "^2.2.4"
   },
   "devDependencies": {
     "jest": "^29.7.0"
