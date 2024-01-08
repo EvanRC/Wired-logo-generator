@@ -2,8 +2,6 @@
 
 ![logo](https://github.com/EvanRC/Wired-logo-generator/assets/124648885/eeba4939-b0f1-4cf2-9f65-bb5bbaa3a883)
 
-
-
 ## License Badge:
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
