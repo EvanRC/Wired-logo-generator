@@ -1,9 +1,7 @@
-![logo](https://github.com/EvanRC/Wired-logo-generator/assets/124648885/eeba4939-b0f1-4cf2-9f65-bb5bbaa3a883)# Wired Logo Generator
+# Wired Logo Generator
 
-![Upload<svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="300px" width="200px">
-<polygon points="100,190 40,102 160,102" fill="black" />
-<text x="50%" y="50%" dy="-20px" text-anchor="middle" dominant-baseline="central" fill="cyan" font-size="20px">WLG</text>
-</svg>ing logo.svg…]()
+![logo](https://github.com/EvanRC/Wired-logo-generator/assets/124648885/eeba4939-b0f1-4cf2-9f65-bb5bbaa3a883)
+
 
 
 ## License Badge:
