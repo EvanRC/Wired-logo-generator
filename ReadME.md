@@ -1,5 +1,10 @@
 # Wired Logo Generator
 
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="300px" width="200px">
+<polygon points="100,190 40,102 160,102" fill="black" />
+<text x="50%" y="50%" dy="-20px" text-anchor="middle" dominant-baseline="central" fill="cyan" font-size="20px">WLG</text>
+</svg>
+
 ## License Badge:
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -25,6 +30,9 @@ Use the command line terminal and  enter node index.js. This will start the appl
 ## Credits
 
 N/A
+
+## Video Walkthrough:
+https://watch.screencastify.com/v/Ez5o6pauyh4irJ5s7DM8
 
 ## License
 
